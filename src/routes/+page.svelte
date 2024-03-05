@@ -9,6 +9,7 @@
   import Cfp from '$lib/section/CFP/cfp.svelte'
   import Youtube from '$lib/section/youtube/youtube.svelte';
   import Corporate from '$lib/section/coporate Partners/corporate.svelte';
+  import Agenda from '$lib/agenda/agenda.svelte';
 </script>
 
 <svelte:head>
@@ -42,12 +43,12 @@
   <div class="space-y-16 md:space-y-44">
     <Blur />
     <Hero />
-    <Cfp />
     <Why />
-    <Tickets />
+    <Agenda />
+    <!-- <Tickets />
     <Sponsors />
     <Partners />
     <Corporate />
-    <Memories />
+    <Memories /> -->
   </div>
 </div>

@@ -1,4 +1,4 @@
-<div class="max-h-lg relative -z-10 w-full max-w-lg">
+<!-- <div class="max-h-lg relative -z-10 w-full max-w-lg">
   <div
     class="z-3 background absolute top-12 h-20 w-96 opacity-40 sm:top-24 md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]"
   >
@@ -60,4 +60,4 @@
       transform: translate3d(0, 0, 1px) rotate(360deg);
     }
   }
-</style>
+</style> -->

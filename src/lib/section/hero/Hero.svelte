@@ -20,23 +20,23 @@
   >
     <div class="bg-text-container max-w-7xl">
       <div class="animate-text">
-        <span>DevFest23</span>
-        <span>DevFest23</span>
+        <span>IWD'24 </span>
+        <span>IWD'24 </span>
+        <span>IWD'24 </span>
       </div>
       <div class="animate-text left">
-        <span>DevFest23</span>
-        <span>DevFest23</span>
+        <span>Impact the Future</span>
+        <span>Impact The Future</span>
       </div>
     </div>
 
     <h1
       class="text-start text-4xl font-bold tracking-tight text-black md:text-center md:text-6xl lg:text-center lg:text-7xl"
     >
-      Chennai’s most awaited tech conference
+      Chennai’s most awaited wommen tech conference
     </h1>
     <p class="max-w-2xl text-start text-gray-700 md:text-center lg:text-center">
-      Come learn, network and celebrate with the Google Developer Ecosystem
-      while also learning to hack on Android, Chrome, and Web.
+      Join us for a groundbreaking Women's Day in Tech event, 'SheInnovates', that aims to celebrate women in technology, encourage more women to step forward, break down barriers, and foster innovation.
     </p>
   </div>
 
@@ -58,7 +58,7 @@
       title="Add to calendar"
       onClick={() =>
         window.open(
-          'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDA1OTY0MWFhNXNmaGZuYW5udnJ2bTRyZTJfMjAyMzEyMDFUMDIzMDAwWiA4MmNmMWQxMWM3MzI1ZjlhZTk1Y2ExNmFkOWEyNmE5MThiMTUyNTk5ODQwMzIyNWM5MGEwM2JkYTQ3NzdjZTcyQGc&tmsrc=82cf1d11c7325f9ae95ca16ad9a26a918b1525998403225c90a03bda4777ce72%40group.calendar.google.com&scp=ALL'
+          'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2FlamwzbG10djhiNWQ3b2lpOXFhbGs3a2UgdGVjaC53dG1jaGVubmFpQG0&tmsrc=tech.wtmchennai%40gmail.com'
         )}
     >
       <i class="fa fa-calendar" />
@@ -66,16 +66,24 @@
   </div>
 
   <div
-    class="flex w-full flex-col items-center justify-center space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
-  >
-    <div class="flex items-center space-x-2">
-      <i class="fa fa-calendar" />
-      <p>December 1 & 2, 2023</p>
-      <i class="fa fa-location-arrow" />
-      <a href='https://maps.app.goo.gl/KnoovD6vyYEHWnDr8'
-        ><p>IIT-M Research Park, Chennai</p></a>
-    </div>
+  class="flex w-full flex-col items-center justify-center space-y-3 text-xl sm:flex-row sm:space-y-0 sm:space-x-6"
+>
+  <div class="flex items-center space-x-2">
+    <i class="fa fa-calendar" />
+    <p>March 9th</p>
+    <i class="fa fa-location-arrow" />
+    <a href="https://maps.app.goo.gl/NkdqaffRsyyaHJLWA"
+      ><p>Altimetrik, Chennai</p></a>
   </div>
+  <div><p>&</p></div>
+  <div class="flex items-center space-x-2">
+    <i class="fa fa-calendar" />
+    <p>March 10th</p>
+    <i class="fa fa-location-arrow" />
+    <a href="https://maps.app.goo.gl/QwnJgnukEtgESLpK8"
+      ><p>Animaker, Chennai</p></a>
+  </div>
+</div>
 
   <div class="items-center">
     <Countdown />
@@ -83,9 +91,9 @@
 </section>
 
 <style>
-  #hero {
+  /* #hero {
     transform: skewY(-5deg);
-  }
+  } */
 
   .bg-text-container {
     transform: translateX(-50%);

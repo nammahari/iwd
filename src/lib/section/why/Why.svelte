@@ -1,28 +1,40 @@
 <script lang="ts">
   const perks = [
     {
-      name: 'Tech Talks',
+      name: 'Hackathon Extravaganza',
       imageSrc: '/icons/techtalk.webp',
       description:
-        'Several speakers are coming together to talk about their experiences in the industry. We will also have a few lightning talks with our members.'
+        'Immerse yourself in a dynamic hackathon where creativity meets code. '
     },
     {
-      name: 'Expert Speakers',
+      name: 'Masterclass Sessions',
       imageSrc: '/icons/experts.webp',
       description:
-        'Experts from the industry will be on hand to answer your questions and give you advice on how to get into the industry.'
+        'Elevate your expertise with exclusive masterclass sessions led by industry trailblazers. '
     },
     {
       name: 'Networking',
       imageSrc: '/icons/networking.webp',
       description:
-        'You will have the opportunity to network with other students and professionals in the industry.'
+        'Forge meaningful relationships, share experiences, and tap into a supportive community that fosters mentorship and collaboration.'
     },
     {
-      name: 'Workshops',
+      name: 'Accelerate Your Learning ',
       imageSrc: '/icons/workshops.webp',
       description:
-        'We will be hosting a series of workshops to assist you in getting started with your tech career. Our members will also give a few lightning talks.'
+        'From inspiring keynotes to hands-on workshops, the event offers a diverse range of learning opportunities.'
+    },
+    
+    {
+      name: 'Tech Talks',
+      imageSrc: '/icons/techtalk.webp',
+      description:
+        'Several speakers are coming together to talk about their experiences in the industry. We will also have a few lightning talks with our members.'
+    },{
+      name: "Celebrate Women's Impact",
+      imageSrc: '/icons/networking.webp',
+      description:
+        'Join us in celebrating the incredible contributions of women in tech.'
     }
   ];
 </script>

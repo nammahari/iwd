@@ -4,13 +4,13 @@ import Icon from '$lib/icon/Icon.svelte';
 
   let events = [
     {
-      name: "IWD'24 SheInnovates Hackathon", 
+      name: "IWD'24 SheInnovates Hackathon - Day 1", 
       venue: "Altimetrik, Chennai",
       time: "09:30 AM",
       url: "https://forms.gle/T5DFZtYDLGs7RoG68"
     },
     {
-      name: "IWD'24 SheInnovates",
+      name: "IWD'24 SheInnovates - - Day 2",
       venue: "Animaker, Chennai",
       time: "09:30 AM",
       url: "https://forms.gle/PwnAzyAapBLLCbg9A"

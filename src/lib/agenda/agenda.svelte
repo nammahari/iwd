@@ -5,7 +5,7 @@
     const dispatcher = createEventDispatcher();
 </script>
 
-<section id="Agenda" class="flex w-full flex-col items-center space-y-6 px-24">
+<section id="Agenda" class="flex w-full flex-col items-center space-y-6 px-6 md:px-20 lg:px-24">
     <div class="pt-12 sm:pt-16 lg:pt-20">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="text-center">
@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col items-center gap-20 px-5 py-20 md:flex-row md:items-start md:px-20 md:py-5">
+      <div class="flex flex-col items-center gap-20 px-5 py-20 md:flex-row md:items-start md:py-5">
         <div><ol role="list" class={clsx("space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-blue-900/5")}>
             <h1 class="uppercase font-semibold tracking-wide text-orange-500">Day 1</h1>
             {#each agenda1 as item,i}

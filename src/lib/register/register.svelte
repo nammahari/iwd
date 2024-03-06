@@ -33,12 +33,13 @@ import Icon from '$lib/icon/Icon.svelte';
           </div>
         </div>
     </div>
-    <div class="grid grid-cols-1 mt-32 md:grid-cols-2 gap-10 px-10">
-      {#each events as event}
-        <div class="bg-white/60 p-4 shadow-xl shadow-blue-900/5">
-          <h2 class="text-xl font-bold mb-2">{event.name}</h2>
-          <p class="text-gray-600 mb-2">Venue: {event.venue}</p>
-          <p class="text-gray-600 mb-2">Time: {event.time}</p>
+    <div class="mt-24 px-10 md:px-24 justify-center ">
+      <div class="grid grid-rows-2  lg:grid-cols-2 gap-10">
+        {#each events as event}
+        <div class="bg-white/60 p-5 shadow-xl shadow-blue-900/5">
+          <h2 class="text-md font-semibold tracking-tight text-gray-900 mb-2">{event.name}</h2>
+          <p class="tracking-tight text-gray-900 mb-2">Venue: {event.venue}</p>
+          <p class="font-mono text-sm text-gray-500 mb-5">Time: {event.time}</p>
           <Button
           id="button-hero-get-tickets"
           title="Register Now"
@@ -48,11 +49,12 @@ import Icon from '$lib/icon/Icon.svelte';
         </Button>
         </div>
       {/each}
+      </div>
     </div>
     
 </section>
 <style>
-  .grid {
+  /* .grid {
     grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-  }
+  } */
 </style>

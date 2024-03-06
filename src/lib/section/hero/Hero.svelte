@@ -16,17 +16,18 @@
 
 <section
   id="hero"
-  class="overflow-hidden flex w-full flex-col items-center justify-start space-y-8 px-24 transition-all  duration-500 ease-in-out"
+  class="overflow-hidden flex w-full flex-col items-center justify-start space-y-8 px-10 transition-all  duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"
-    class="flex flex-col items-center justify-start space-y-8"
+    class="flex flex-col items-center justify-start space-y-8 overflow-hidden"
   >
-    <div class="bg-text-container max-w-7xl">
+    <div class="bg-text-container max-w-7xl overflow-hidden">
       <div class="animate-text">
         <span>IWD'24 </span>
         <span>IWD'24 </span>
         <span>IWD'24 </span>
+        
       </div>
       <div class="animate-text left">
         <span>Impact the Future</span>
@@ -37,7 +38,7 @@
     <h1
       class="text-start text-4xl font-bold tracking-tight text-black md:text-center md:text-6xl lg:text-center lg:text-7xl"
     >
-      Chennai’s most awaited wommen tech conference
+      Chennai’s most awaited woman tech conference
     </h1>
     <p class="max-w-2xl text-start text-gray-700 md:text-center lg:text-center">
       Join us for a groundbreaking Women's Day in Tech event, 'SheInnovates', that aims to celebrate women in technology, encourage more women to step forward, break down barriers, and foster innovation.
@@ -95,9 +96,6 @@
 </section>
 
 <style>
-  /* #hero {
-    transform: skewY(-5deg);
-  } */
 
   .bg-text-container {
     transform: translateX(-50%);

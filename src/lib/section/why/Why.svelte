@@ -39,7 +39,7 @@
   ];
 </script>
 
-<section id="why" class="flex w-full flex-col items-center space-y-6 px-24">
+<section id="why" class="flex w-full flex-col items-center space-y-6 px-6 md:px-24 lg:md:24">
   <div class="pt-12 sm:pt-16 lg:pt-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="text-center">

@@ -38,7 +38,7 @@
 </svelte:head>
 
 <div
-  class="flex min-h-screen flex-col items-center justify-start overflow-hidden p-8"
+  class="flex  flex-col items-center justify-start overflow-hidden p-8"
 >
   <div class="space-y-16 md:space-y-44">
     <Blur />

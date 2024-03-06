@@ -1,6 +1,6 @@
 <footer
 	id="footer"
-	class=" px-10 py-5 md:px-10 md:py-5 flex flex-col sm:flex-row items-center justify-between gap-3 w-full text-gray-500"
+	class=" px-10 py-5 md:px-10 md:py-5 flex flex-col sm:flex-row sm:items-center items-center justify-between gap-3 w-full text-gray-500"
 >
 	<div class="w-full text-gray-500">© 2024 GDG Chennai. All rights reserved.</div>
 

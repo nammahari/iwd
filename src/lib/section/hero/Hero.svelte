@@ -16,13 +16,13 @@
 
 <section
   id="hero"
-  class="overflow-hidden flex w-full flex-col items-center justify-start space-y-8 px-10 transition-all  duration-500 ease-in-out"
+  class="flex w-full flex-col items-center justify-start space-y-8 px-10 transition-all  duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"
-    class="flex flex-col items-center justify-start space-y-8 overflow-hidden"
+    class="flex flex-col items-center justify-start space-y-8"
   >
-    <div class="bg-text-container max-w-7xl overflow-hidden">
+    <div class="bg-text-container max-w-7xl">
       <div class="animate-text">
         <span>IWD'24 </span>
         <span>IWD'24 </span>

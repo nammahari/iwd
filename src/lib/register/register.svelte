@@ -10,7 +10,7 @@ import Icon from '$lib/icon/Icon.svelte';
       url: "https://forms.gle/T5DFZtYDLGs7RoG68"
     },
     {
-      name: "IWD'24 SheInnovates - - Day 2",
+      name: "IWD'24 SheInnovates - Day 2",
       venue: "Animaker, Chennai",
       time: "09:30 AM",
       url: "https://forms.gle/PwnAzyAapBLLCbg9A"

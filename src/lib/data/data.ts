@@ -78,7 +78,7 @@ export const agenda2: Agenda2[] = [
         end: "11:45 AM"
 
     },{
-        title: "Netwroking Break",
+        title: "Networking Break",
         speaker: "-",
         start: "11:45 AM",
         end: "12:00 PM"

@@ -65,7 +65,7 @@
 </script>
 
 <div id="clockdiv" class="flex space-x-6 text-center">
-  <div class="bg-gray-900 p-3 rounded-lg text-white shadow-sm">
+  <div class="bg-gray-900 p-3  rounded-lg text-white shadow-sm">
     <span class="days text-3xl"></span>
     <div>Days</div>
   </div>

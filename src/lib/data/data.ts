@@ -46,8 +46,8 @@ export const agenda1: Agenda1[] = [
     {
         title: "Closing Note",
         speaker: "-",
-        start: "-",
-        end: "-"
+        start: "07:00 PM",
+        end: "07:15 PM"
 
     }];
 

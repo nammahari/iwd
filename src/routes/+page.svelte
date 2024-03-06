@@ -10,6 +10,7 @@
   import Youtube from '$lib/section/youtube/youtube.svelte';
   import Corporate from '$lib/section/coporate Partners/corporate.svelte';
   import Agenda from '$lib/agenda/agenda.svelte';
+  import Register from '$lib/register/register.svelte';
 </script>
 
 <svelte:head>
@@ -44,7 +45,9 @@
     <Blur />
     <Hero />
     <Why />
+    <Register />
     <Agenda />
+    
     <!-- <Tickets />
     <Sponsors />
     <Partners />

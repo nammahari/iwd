@@ -2,17 +2,21 @@
   import Button from '$lib/button/Button.svelte';
   import Icon from '$lib/icon/Icon.svelte';
   import Countdown from '$lib/section/countdown/Countdown.svelte';
+  import Register from '$lib/register/register.svelte';
   import Modal from '$lib/modal/Modal.svelte';
   import { openModal } from 'svelte-modals';
 
   function handleClick() {
-    window.open('https://konfhub.com/devfest-2023-chennai')
+    const registerSection = document.getElementById('Register');
+    if (registerSection) {
+      registerSection.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 </script>
 
 <section
   id="hero"
-  class="flex w-full flex-col items-center justify-start space-y-8 px-24 transition-all  duration-500 ease-in-out"
+  class="overflow-hidden flex w-full flex-col items-center justify-start space-y-8 px-24 transition-all  duration-500 ease-in-out"
 >
   <div
     id="hero-content-group"
